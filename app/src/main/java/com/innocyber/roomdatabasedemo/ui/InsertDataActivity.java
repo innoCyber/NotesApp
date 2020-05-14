@@ -1,4 +1,4 @@
-package com.innocyber.roomdatabasedemo;
+package com.innocyber.roomdatabasedemo.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.innocyber.roomdatabasedemo.R;
 
 public class InsertDataActivity extends AppCompatActivity {
 

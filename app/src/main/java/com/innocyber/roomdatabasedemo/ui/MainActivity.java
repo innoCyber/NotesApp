@@ -1,4 +1,4 @@
-package com.innocyber.roomdatabasedemo;
+package com.innocyber.roomdatabasedemo.ui;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,7 +10,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import com.innocyber.roomdatabasedemo.data.Note;
+import com.innocyber.roomdatabasedemo.viewmodel.NoteViewModel;
+import com.innocyber.roomdatabasedemo.R;
 
 import java.util.UUID;
 
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,InsertDataActivity.class);
+                Intent intent = new Intent(MainActivity.this, InsertDataActivity.class);
                 startActivityForResult(intent,1);
             }
         });

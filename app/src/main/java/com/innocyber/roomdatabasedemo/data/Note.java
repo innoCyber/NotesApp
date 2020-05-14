@@ -1,4 +1,4 @@
-package com.innocyber.roomdatabasedemo;
+package com.innocyber.roomdatabasedemo.data;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;

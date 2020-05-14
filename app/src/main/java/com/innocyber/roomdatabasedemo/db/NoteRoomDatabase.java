@@ -1,10 +1,13 @@
-package com.innocyber.roomdatabasedemo;
+package com.innocyber.roomdatabasedemo.db;
 
 import android.content.Context;
 
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+
+import com.innocyber.roomdatabasedemo.data.Note;
+import com.innocyber.roomdatabasedemo.db.dao.NoteDao;
 
 @Database(entities =  Note.class,version = 1)
 public abstract class NoteRoomDatabase extends RoomDatabase {

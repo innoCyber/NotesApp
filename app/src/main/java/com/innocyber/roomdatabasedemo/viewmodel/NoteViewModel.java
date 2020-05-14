@@ -1,4 +1,4 @@
-package com.innocyber.roomdatabasedemo;
+package com.innocyber.roomdatabasedemo.viewmodel;
 
 import android.app.Application;
 import android.os.AsyncTask;
@@ -6,6 +6,10 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
+
+import com.innocyber.roomdatabasedemo.data.Note;
+import com.innocyber.roomdatabasedemo.db.dao.NoteDao;
+import com.innocyber.roomdatabasedemo.db.NoteRoomDatabase;
 
 public class NoteViewModel extends AndroidViewModel {
 
